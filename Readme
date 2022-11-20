@@ -1,0 +1,58 @@
+Book My Show 
+
+This is a full stack project on Book My Show.
+
+Code for front-end is given in client folder.
+Code for back-end server is given in server folder.
+
+This Project is live:
+    server : 
+    client :
+
+To run this project in local machine.
+
+1. Clone the repository, and run `npm install` for both client and server.
+2. 
+
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+How to use this WebApp.
+
+1. Start Backend Server.
+2. Now run `npm start` in terminal. 
+3. Select Movie name.
+4. Select Time slot.
+5. Select No. of tickets of required rows.
+6. Now click book now. 
+    Your Movie will be booked.
+7. To know the last booking done see last booking section.
+    If no movies are booked It will show no booking found.
+    If Booked it will show last booking details.
+
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+
+
+-------------------------------------------------------------------------------------------------------------------
+
+
+How to use this Node Server
+ 
+1. Clone the code from github and run "npm install".
+2. To create database please install mongodb in local machine
+3. Now run index.js this will Start the Server.
+4. Read the API documentation to know more about the api.
+
+
+API Documentation :-
+   https://documenter.getpostman.com/view/23147277/2s8YmNRNoA
+
