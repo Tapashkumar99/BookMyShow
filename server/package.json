@@ -7,9 +7,9 @@
     "test": "mocha '__tests__/*.test.js' --reporter mochawesome --recursive  --timeout 60000 --exit",
     "run": "node ./index.js",
     "start": "node ./index.js",
-    "client" : "cd.. && cd client && npm start",
+    "client": "cd.. && cd client && npm start",
     "dev": "concurrently \"node index.js\" \"npm run client\"",
-    "clienti":"cd.. && cd client && npm install",
+    "clienti": "cd.. && cd client && npm install",
     "download": "concurrently \"npm install\" \"npm run clienti\""
   },
   "author": "",

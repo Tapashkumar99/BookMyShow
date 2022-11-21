@@ -4,7 +4,7 @@ const mongoURI = "mongodb://localhost:27017/" + "bookMovie"
 
 let mongoose = require('mongoose');
 //  Importing Mongoose Schema from schema.js
-const { bookMovieSchema } = require('./schema')
+const { bookMovieSchema } = require('./models/schema')
 
 
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
